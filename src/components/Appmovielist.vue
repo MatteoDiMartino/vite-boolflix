@@ -1,7 +1,11 @@
 <script>
+import Appmoviecom from './Appmoviecom.vue'
 
 export default {
-    name: 'Appmovielist'
+    name: 'Appmovielist',
+    components: {
+        Appmoviecom
+    }
 }
 
 </script>
@@ -11,6 +15,7 @@ export default {
 <main>
     <div class="container">
         <div class="row">
+            <Appmoviecom></Appmoviecom>
         </div>
     </div>
 </main>
