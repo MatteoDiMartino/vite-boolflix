@@ -1,8 +1,14 @@
 <script>
 
+export default {
+    name: 'Appheader'
+}
+
 </script>
 
 <template>
+
+<h1>ciao</h1>
 
 </template>
 
