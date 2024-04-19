@@ -1,10 +1,12 @@
 <script>
 
 import Appheader from './components/Appheader.vue';
+import Appmovielist from './components/Appmovielist.vue'
 
 export default {
   components: {
-    Appheader
+    Appheader,
+    Appmovielist
   }
 }
 </script>
@@ -12,6 +14,7 @@ export default {
 <template>
 
 <Appheader></Appheader>
+<Appmovielist></Appmovielist>
 
 </template>
 

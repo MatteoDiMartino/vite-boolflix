@@ -1,5 +1,14 @@
-<script></script>
+<script>
 
-<template></template>
+export default {
+    name: 'Appmovielist'
+}
+
+</script>
+
+<template>
+
+
+</template>
 
 <style scoped lang="scss"></style>
