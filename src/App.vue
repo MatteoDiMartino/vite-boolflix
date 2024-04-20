@@ -26,7 +26,7 @@ export default {
         params: queryParams
       }).
       then((response) => {
-        console.log(response)
+        store.movies = response.data.results;
       })
     },
   },
