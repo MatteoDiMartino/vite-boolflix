@@ -9,6 +9,11 @@ export default {
     Appheader,
     Appmovielist
   },
+  data () {
+    return {
+
+    };
+  },
   methods: {
     getMoviesFromApi() {
 
