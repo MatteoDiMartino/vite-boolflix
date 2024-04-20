@@ -9,8 +9,13 @@ export default {
     Appheader,
     Appmovielist
   },
-  getMoviesFromApi() {
-    
+  methods: {
+    getMoviesFromApi() {
+
+    },
+  },
+  mounted(){
+    this.getMoviesFromApi();
   }
 }
 </script>
