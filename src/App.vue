@@ -1,4 +1,5 @@
 <script>
+import { store } from '../store.js'
 import axios from 'axios';
 import Appheader from './components/Appheader.vue';
 import Appmovielist from './components/Appmovielist.vue'
@@ -17,7 +18,7 @@ export default {
   methods: {
     getMoviesFromApi() {
       const queryParams = {
-        api_key: '939276dcf78a62c1ab44ca7c65aaac98',
+        api_key: store.apiKey,
         query: 'ritorno'
       };
 
