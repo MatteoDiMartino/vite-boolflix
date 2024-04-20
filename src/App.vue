@@ -8,6 +8,9 @@ export default {
   components: {
     Appheader,
     Appmovielist
+  },
+  getMoviesFromApi() {
+    
   }
 }
 </script>
