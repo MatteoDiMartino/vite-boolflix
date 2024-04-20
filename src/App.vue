@@ -1,5 +1,5 @@
 <script>
-
+import axios from 'axios';
 import Appheader from './components/Appheader.vue';
 import Appmovielist from './components/Appmovielist.vue'
 
@@ -16,7 +16,17 @@ export default {
   },
   methods: {
     getMoviesFromApi() {
+      const queryParams = {
+        api_key: '939276dcf78a62c1ab44ca7c65aaac98',
+        query: 'ritorno'
+      };
 
+      axios.get('https://api.themoviedb.org/3/search/movie', {
+        params: queryParams
+      }).
+      then((response) => {
+        console.log(response)
+      })
     },
   },
   mounted(){
