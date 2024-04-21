@@ -15,8 +15,8 @@ export default {
     <div class="row">
         <div class="ms-titolo">Titolo: {{ cardInfo.title }} </div>
         <div class="ms-or-titolo">Titolo Originale: {{ cardInfo.original_title }}</div>
-        <div class="ms-lingua">Lingua: {{ cardInfo.original_language }}</div>
-        <div class="ms-voto">[Voto]</div>
+        <div class="ms-lingua">Lingua Originale: {{ cardInfo.original_language }}</div>
+        <div class="ms-voto">Voto: {{ cardInfo.vote.average }}</div>
     </div>
 </div>
 
