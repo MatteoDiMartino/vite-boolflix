@@ -1,5 +1,5 @@
 <script>
-import { store } from '../store.js'
+import { store } from './store.js'
 import axios from 'axios';
 import Appheader from './components/Appheader.vue';
 import Appmovielist from './components/Appmovielist.vue'
@@ -12,7 +12,7 @@ export default {
   },
   data () {
     return {
-
+      store
     };
   },
   methods: {
