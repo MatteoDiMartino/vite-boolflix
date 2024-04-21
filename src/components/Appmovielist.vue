@@ -21,7 +21,7 @@ export default {
 <main>
     <div class="container">
         <div class="row">
-            <Appmoviecom></Appmoviecom>
+            <Appmoviecom v-for="movie in store.movies"></Appmoviecom>
         </div>
     </div>
 </main>
