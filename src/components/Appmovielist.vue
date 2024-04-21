@@ -21,7 +21,7 @@ export default {
 <main>
     <div class="container">
         <div class="row">
-            <Appmoviecom v-for="movie in store.movies" :key="movie.id"></Appmoviecom>
+            <Appmoviecom v-for="movie in store.movies" :key="movie.id" :cardInfo="movie"></Appmoviecom>
         </div>
     </div>
 </main>
